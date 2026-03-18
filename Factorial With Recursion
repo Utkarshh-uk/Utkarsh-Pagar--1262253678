@@ -1,0 +1,25 @@
+#inslude<stdio.h>
+
+int factorial(int n);
+
+int main()
+{
+  int num,result;
+  printf("Enter a no.");
+  scanf("%d" , &num);
+
+  result("Factorial of %d is %D\n ,num, result);
+  return 0;
+}
+
+int factorial(int n)
+{
+  int(n==0 || n==1)
+{
+  return 1;
+}
+  else
+{
+  return n*factorial(n-1);
+}
+}
